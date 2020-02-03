@@ -8,7 +8,43 @@
 </head>
 <body>
     <form>
-        
+        <label for="name">Nume</label>
+        <input type="text" 
+            name="name" 
+            id="name"
+            minlength="5"
+            maxlength="30"
+            required
+        >
+        <br><br>
+        <label for="surname">Prenume</label>
+        <input type="surname" 
+            name="surname" 
+            id="surname"
+            minlength="5"
+            maxlength="30"
+            required
+        >
+        <br><br>
+        <label for="message">Mesaj</label>
+        <textarea
+            name="message" 
+            id="message"
+            cols="30"
+            rows="4"
+            required
+        >
+        </textarea>
+        <br><br>
+        <label for="message">Alt Mesaj</label>
+        <textarea name="message" 
+            id="message" 
+            cols="30" 
+            rows="10"
+        >
+        </textarea>
+        <br><br>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
