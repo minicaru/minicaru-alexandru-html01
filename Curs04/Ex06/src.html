@@ -7,32 +7,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
+  <style>
+  form{
+    background-color:burlywood
+  }
+  p{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{
+    font-style: italic;
+  }
+  </style>
 </head>
 <body>
-  <form>
-    <fieldset>
-      <legend>Address Information:</legend>
-      <p>Title: <label>Mr</label><input type="radio" checked> <label>Ms</label><input type="radio"> <label>Unspecified</label><input type="radio"></p>
-      <label>*Name:</label><input placeholder="Name"><br><br>
-      <label>*Surname:</label><input placeholder="Surname"><br><br>
-      <label>*Phone</label><input placeholder="Phone"><br><br>
-      <label>*Address Line 1:</label><input placeholder="Address Line 1"><br><br>
-      <label>Address Line 2:</label><input placeholder="Address Line 2"><br><br>
-      <label>*City:</label><input placeholder="City"><br><br>
-      <label>*State:</label>
-      <select>
-        <option>--State--</option>
-      </select><br><br>
-      <label>*Postcode</label><input placeholder="Postcode"><br><br>
+<h2>New Address</h2>
+<p>
+  <img src="images/new_address.jpg" alt="image">
+</p>
+<p><b>Please provide a valid address</b>,otherwise we will not be able to send your stuff.</p>
+<p>
 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<h3>
+  Useful links
+</h3>
+<ul>
+  <li>
+    <a href="https://www.google.com/maps">https://www.google.com/maps</a>
+  </li>
+  <li>
+    <a href="https://www.coduripostale.com/">https://www.coduripostale.com/</a>
+  </li>
+</ul>
+<h3>Adress Form</h3>
+<form action="">
+<fieldset>
+  <legend>Address Information</legend>
+  <label for="title">Title:</label>
+  <label for="gender-male">Mr</label>
+  <input type="radio"
+    name="gender"
+    id="gender-male"
+    checked
+  >
+  <label for="gender-female">Ms</label>
+  <input type="radio"
+    name="gender"
+    id="gender-female"
+  >
+  <label for="unspecified">Unspecified</label>
+  <input type="radio"
+    name="gender"
+    id="unspecified"
+  >
 
+  <br><br>
 
-      <input type="checkbox"><label>GDPR generic consent?</label>
-      
-      <br><br>
-      <button>Create Account</button>
-      <button>Reset</button>
-    </fieldset>
-  </form>
+  <label for="name">*Name:</label>
+  <input type="text"
+    name="name"
+    id="name"
+    required
+    placeholder="Name"
+  >
+
+  <br><br>
+
+  <label for="surname">*Surname:</label>
+  <input type="text"
+    name="surname"
+    id="surname"
+    required
+    placeholder="Surname"
+  >
+
+  <br><br>
+
+  <label for="phone">*Phone</label>
+  <input type="phone"
+    name="phone"
+    id="phone"
+    required
+    placeholder="Phone"
+  >
+
+  <br><br>
+
+  <label for="address1">*Address Line 1: </label>
+  <input type="text"
+    placeholder="Address Line 1:"
+    id="address1"
+    name="address2"
+    required
+  >
+
+  <br><br>
+
+  <label for="address2">*Address Line 2: </label>
+  <input type="text"
+    placeholder="Address Line 2:"
+    id="address2"
+    name="address2"
+  >
+
+  <br><br>
+
+  <label for="city">*City</label>
+  <input type="text"
+    placeholder="City"
+    name="city"
+    id="city"
+    required
+  >
+
+  <br><br>
+
+  <label for="state">*State</label>
+  <select name="state" id="state"> 
+    <option value="1">--State--</option>
+    <option value="2">Romania</option>
+  </select>
+
+  <br><br>
+
+  <label for="postcode">*Postcode</label>
+  <input type="text"
+    placeholder="Postcode"
+    name="postcode"
+    id="postcode"
+    required
+  >
+
+  <br><br>
+
+  <input type="checkbox"
+    name="check"
+    id="check"
+  >
+  <label for="check">GDPR generic consent?</label>
+
+  <br><br>
+
+  <button type="submit">Create Account</button>
+  <button type="reset">Reset</button>
+</fieldset>
+</form>
 </body>
 </html>
