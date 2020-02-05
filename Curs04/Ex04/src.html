@@ -9,21 +9,98 @@
   <script src="main.js"></script>
 </head>
 <body>
-  <form>
-    <fieldset>
-      <legend>Subscribe:</legend>
-      <p>Title: <label>Mr</label><input type="radio" checked> <label>Ms</label><input type="radio"> <label>Unspecified</label><input type="radio"></p>
-      <label>*Name:</label><input placeholder="Name">
-      <label>*Surname:</label><input placeholder="Surname"><br><br>
-      <label>*Email:</label><input placeholder="Email"> <br>
+  <h1>Welcome to our newsletter</h1>
+  <p>
+    <img src="images/newsletter.JPG" alt="">
+  </p>
+  <p>Subscribe, <b>now!</b></p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+    <a href="https://www.google.com/" title="Privacy">Privacy</a>
+    <a href="https://www.google.com/" title="GDPR">GDPR</a>
+    <a href="https://www.google.com/" title="Customer Service">Customer Service</a>
+    <a href="https://www.google.com/" title="Contact">Contact</a>
+  </p>
+  <h2>
+    Newsletter form
+  </h2>
+  <fieldset>
+    <legend>Subscribe</legend>
+    <label>Title:</label>
+    <label for="gender-male">Mr</label>
+    <input type="radio" 
+      name="gender" 
+      id="gender-male"
+      checked
+    >
+    <label for="gender-female">Ms</label>
+    <input type="radio" 
+      name="gender" 
+      id="gender-female"
+    >
+    <label for="unspecified-gender">Unspecified</label>
+      <input type="radio" 
+        name="gender" 
+        id="unspecified-gender"
+      >
+      <br><br>
+
+      <label for="name">*Name:</label>
+      <input type="text" 
+        name="name" 
+        id="name"
+        placeholder="name"
+        required
+      >
+      <label for="surname">*Surname</label>
+      <input type="text" 
+        name="surname" 
+        id="surname"
+        placeholder="surname"
+        required
+      >
+      <br><br>
+
+      <label for="email">*Email:</label>
+      <input type="email" 
+        name="email" 
+        id="email"
+        placeholder="email"
+        required
+      >
+      <br><br>
+
+      <input type="checkbox"
+        id="consent"
+        name="consent"
+      >
+      <label for="consent">Agree to this and <i>we will send you emails.</i></label>
 
       <br>
-      <input type="checkbox"><label>Agree to this and <i>we will send you emails</i>.</label>
-      <br>
-      <input type="checkbox"><label>GDPR generic consent?</label>
+
+      <input type="checkbox"
+        id="gdpr"
+        name="gdpr"
+      >
+      <label for="gdpr">GDPR generic consent?</label>
+
       <br><br>
-      <button>Subscribe</button>
-    </fieldset>
-  </form>
+
+      <button type="submit">Subscribe</button>
+  </fieldset>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+    <a href="https://www.google.com" title="Privacy">Privacy</a>
+    <a href="https://www.google.com" title="GDPR">GDPR</a>
+    <a href="https://www.google.com" title="Customer Service">Customer Service</a>
+    <a href="https://www.google.com" title="Contact">Contact</a>
+  </p>
 </body>
 </html>
