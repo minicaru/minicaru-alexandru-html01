@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #poze{
+            text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <h1>
+        Tema Curs 04
+    </h1>
+    <p>
+        <a href="https://www.google.com">Home</a> *
+        <a href="https://www.google.com">Place order</a> *
+        <a href="https://www.google.com">Customer Service</a> *
+        <a href="https://www.google.com">Contact</a> *
+    </p>
+    <h1>Place Order</h1>
+    <p>This is the guest checkout</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h3>Products</h3>
+    <p>
+        <img src="images/mouse.jpg" alt="mouse">
+    </p>
+    <p id="poze">
+        <a href="">Sterge</a>
+        <a href="">Editeaza</a>
+    </p>
+    <br>
+    <hr>
+    <p>
+        <img src="images/extension_chord.jpg" alt="">
+    </p>
+    <p id="poze">
+        <a href="">Sterge</a>
+        <a href="">Editeaza</a>
+    </p>
+    <br>
+    <hr>
+    <p>
+        <img src="images/phone.jpg" alt="">
+    </p>
+    <p id="poze">
+        <a href="">Sterge</a>
+        <a href="">Editeaza</a>
+    </p>
+    <h3>Order Now</h3>
+    <p>On our website <i> no account is needed.</i></p>
+    <ol>
+        <li>First we need some info about yourself. <b>Don’t forget to provide a phone.</b></li>
+        <li>Then we need your <i>real</i> shipping address.</li>
+        <li>Finally, your credit card information.</li>
+    </ol>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="title">Title :</label>
+            <label for="male-gender">Mr</label>
+            <input type="radio" 
+                name="gender" 
+                id="male-gender"
+                required
+                checked
+            >
+            <label for="female-gender">Ms</label>
+            <input type="radio" 
+                name="gender" 
+                id="female-gender"
+                required
+            >
+            <label for="unspecified">Unspecified</label>
+            <input type="radio" 
+                name="gender" 
+                id="unspecified"
+                required
+                >
+            <br><br>
+            <label for="name">*Name</label>
+            <input type="text" 
+                name="name" 
+                id="name"
+                required
+            >
+            <br><br>
+            <label for="surname">*Surname</label>
+            <input type="text" 
+                name="surname" 
+                id="surname"
+                required
+            >
+            <br><br>
+            <label for="email">*Email</label>
+            <input type="email" 
+                name="email" 
+                id="email"
+                required
+            >
+            <br><br>
+            <label for="phone">*Phone</label>
+            <input type="phone" 
+                name="phone" 
+                id="phone"
+                required
+            >
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="name1">*Name</label>
+            <input type="text" 
+                name="name1" 
+                id="name1"
+                required
+            >
+            <br><br>
+            <label for="surname1">*Surname</label>
+            <input type="text" 
+                name="surname1" 
+                id="surname1"
+                required
+            >
+            <br><br>
+            <label for="phone1">*Phone</label>
+            <input type="phone" 
+                name="phone1" 
+                id="phone1"
+                required
+            >
+            <br><br>
+            <label for="address1">*Address line 1</label>
+            <input type="text" 
+                name="address1" 
+                id="address1"
+                required
+            >
+            <br><br>
+            <label for="address2">Address line 2</label>
+            <input type="text" 
+                name="address2" 
+                id="address2"
+            >
+            <br><br>
+            <label for="city">*City</label>
+            <input type="text" 
+                name="city" 
+                id="city"
+                required
+            >
+            <br><br>
+            <label for="state">State</label>
+            <select name="state" id="state">State
+            <option value="1">--State--</option>
+            <option value="2">Alabama</option>
+            <option value="3">New York</option>
+            </select>
+            <br><br>
+            <label for="postcode">*Postcode</label>
+            <input type="text" 
+                name="postcode" 
+                id="postcode"
+                required
+            >
+        </fieldset>
+        <fieldset>
+            <legend>Card information</legend>
+            <label for="card-number">*Card Number</label>
+            <input type="text" 
+                name="card-number" 
+                id="card-number"
+                required
+            >
+            <br><br>
+            <label for="card-name">*Name on card</label>
+            <input type="text" 
+                name="" 
+                id=""
+                required
+            >
+            <br><br>
+            <label for="expiration-month">*Expiry Month</label>
+            <select name="month" 
+                id="month"
+                required
+            >
+                <option value="1">January</option>
+            </select>
+            <label for="expiration-year">*Expiry Year</label>
+            <select name="year" 
+                id="year"
+                required
+            >
+                <option value="1">2019</option>
+            </select>
+            <br><br>
+            <label for="cvv">*CVV</label>
+            <input type="text" 
+                name="cvv" 
+                id="cvv"
+                required
+            >
+            <p><i>We do not store credit card information</i></p>
+        </fieldset>
+        <fieldset>
+            <legend>Form controls</legend>
+            <input type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                required
+            >
+            <label for="checkbox">*You are required to agree to the <a href="">terms and conditions</a></label>
+            <br><br>
+            <input type="checkbox"
+                name="checkbox2"
+                id="checkbox2"
+           >
+           <label for="checkbox2">Can we send you emails?</label>
+           <br><br>
+           <input type="checkbox"
+                name="checkbox3"
+                id="checkbox3"
+            >
+            <label for="checkbox3">GDPR generic consent?</label>
+            <br><br>
+            <button>Place Order</button>
+            <button>Reset</button>
+        </fieldset>
+    </form>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+        <a href="">Home</a> *
+        <a href=""><b>Place order</b></a> *
+        <a href="">Customer service</a> *
+        <a href="">Contact</a>
+    </p>
+</body>
+</html>
