@@ -1,1 +1,6 @@
-
+p {
+  width: 500px;
+  height: 102px;
+  background-color: red;
+  border-radius: 1px;
+}
