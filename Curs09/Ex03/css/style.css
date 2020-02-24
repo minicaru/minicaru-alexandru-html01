@@ -9,3 +9,14 @@
   float: left;
 }
 
+.orientation-left {
+  float: left;
+}
+
+.orientation-right {
+  float: right;
+}
+
+.orientation-none img.float-left{
+  float: none;
+}
