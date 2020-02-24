@@ -1,46 +1,81 @@
-ul {
-    list-style: none;
-    padding-left: 400px;
-    padding-bottom: 10px;
+body {
+    margin-left: 5px;
+    margin-top: -18px;
 }
+
+
+.header-menu {
+    background-color:lightgray;
+    padding-top: 10px;
+    margin-top: -18px;
+}
+
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titlu {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .header-contact {
-    background-color:black;
+    background-color: black;
+    padding-left: 1400px;
+}
+
+.header-contact p {
     color: white;
 }
 
-.container {
-    background-color: gray;
-}
-
-
-.phone-contact {
-    padding-left: 20px;
-}
-
-.real-home {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.header-contact {
-    padding-left: 900px;
-}
-
-.header-menu {
-margin-top: 10px;
-border-bottom: 10px;
-}
-
-.realhome {
-    position: relative;
-}
-
 .primaimagine {
-    padding-left: 0;
+    margin-top: -17px;
 }
 
-.banner-main {
+. {
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
     position: relative;
-    box-sizing: border-box;
-    border: black 1px;
+
+}
+
+.first-image {
+    display: block  ;
+    width: 33.33%;
+    float: left;
+}
+
+.prop {
+    float: left;
+}
+
+.img11 {
+    width: 25%;
+    float: left;
+}
+
+.img12 {
+    width: 25%;
+    float: left;
+}
+
+.trusted1 {
+    width: 33.33%;
+    float: left;
+    background-color: lightgray;
+    }
+
+.latest1 {
+    width: 33.33%;
+    float: left;
+}
+
+.footer-bottom {
+    background-color: lightgray;
 }
