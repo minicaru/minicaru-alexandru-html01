@@ -5,3 +5,10 @@ input[type="checkbox"]:checked + label{
 input[type="radio"]:checked + label {
   background-color: green;
 }
+
+select option:checked {
+  font-weight: bold;
+  color: red;
+}
+
+select option: {color: green;}

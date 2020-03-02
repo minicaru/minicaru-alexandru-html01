@@ -29,3 +29,34 @@
   top: 7px;
   right: 3px;
 }
+
+
+.my-second-list a{
+  display: block;
+  padding: 0 15px;
+  position: relative;
+}
+
+.my-second-list a::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 8px;
+  background-color: brown;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  border-radius: 2px/4px;
+}
+
+.my-second-list a::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: purple;
+  transform: rotate(55deg) skew(25deg);
+  position: absolute;
+  top: 7px;
+  right: 3px;
+}
