@@ -154,23 +154,179 @@ body {
   background-color:#FF6B6B;
 }
 
-.banner-main .container a {
+.banner-main {
+  background-image: url('../images/banners/logo-ceas.jpg');
+  min-height: 572px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black;
+  background-size: cover;
+  margin-top: 12px;
+  margin-bottom: 111px;
+}
+
+.banner-main .container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  min-height: inherit;
+  color: white;
+}
+
+.banner-main .banner-copy {
+  color: white;
+  padding: 0 0 0 50px;
+}
+
+.banner-main .banner-copy h1 {
+  font-size: 75px;
+}
+
+.banner-main .banner-copy h2 {
+  font-size: 42px;
+}
+
+.banner-main .banner-copy a {
+  display: block;
+  margin: 38px auto 0 auto;
+}
+
+.banner-main .banner-copy .banner-cta {
+  text-align: center;
+  margin: 38px 0 0 0;
+  }
+
+.banner-main .banner-cta a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 25px 40px;
+  text-decoration: none;
+  border: 1px solid #FF6B6B;
+  border-radius: 35px;
   color:#FF6B6B;
+}
+
+.banner-main .banner-small-print {
+  bottom: 25px;
+  left: 50px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.content .header-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content .header-content h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.content .header-content h1 span {
+  text-transform: uppercase;
+  color: black;
 }
 
 .product-pricing .product-price span {
   color:#FF6B6B;
+
+  }
+
+.catalog-preview {
+  display: flex;
+  justify-content: space-between;
 }
+
+.product-list {
+  margin-bottom: 75px;
+}
+
+.catalog-preview .product-tile {
+  width:350px;
+}
+
+
+
+.catalog-preview .product-info {
+  text-align: center;
+}
+
 
 .product-badge {
   color: #FF6B6B;
 }
 
-.button-a2c {
+
+.catalog-preview .product-pricing,
+.catalog-preview .product-actions,
+.catalog-preview .product-info {
+  text-align: center;
+}
+
+.catalog-preview .product-tile .product-image {
+  position: relative;
+}
+
+.catalog-preview .product-tile .product-badge {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.catalog-preview .product-tile .producut-badge-text {
+  font-size: 22px;
   color: #FF6B6B;
 }
 
+.catalog-preview .product-tile .product-info {
+  padding-top: 28px;
+  padding-bottom: 14px;
+}
+
+.catalog-preview .product-tile .product-info h1 {
+  font-size: 24px;
+}
+
+.catalog-preview .product-tile .product-info a {
+  text-decoration: none;
+  color: #707070;
+}
 
 
+.catalog-preview .product-tile .product-info a  span:nth-of-type(1) {
+  color: black;
+}
 
+.catalog-preview .product-tile .product-info a  span:nth-of-type(2) {
+  color: #7e7e7e;
+}
 
+.catalog-preview .product-tile .product-price-regular {
+  text-decoration: line-through;
+  display: block;
+  font-size: 18px;
+}
+
+.catalog-preview .product-tile .product-price {
+  font-size: 24px;
+
+}
+
+.catalog-preview .product-tile .product-price span {
+  color: #FF6B6B;
+}
+
+.catalog-preview .product-actions {
+  margin-top: 15px;
+}
+
+.catalog-preview .product-tile .button-a2c {
+  background-color: transparent;
+  color: #FF6B6B;
+  border-radius: 35px;
+  border: 1px solid #FF6B6B;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 13px 34px;
+} 
