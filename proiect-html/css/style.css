@@ -436,6 +436,10 @@ body {
   margin: 0 5px 10px 5px;
 }
 
+.footer {
+  margin: 56px 0 35px 0;
+}
+
 .footer .footer-top{
   background-image: url(../images/banners/Group497.jpg);
   min-height: 322px;
@@ -444,6 +448,7 @@ body {
   background-size: cover;
   padding: 48px 0 0 48px;
   font-size: 14px;
+  color: #AEAEAE;
   }
 
 .footer .footer-top ul {
@@ -466,4 +471,31 @@ body {
 
 .footer .footer-customer-support {
   clear: both;
+}
+
+.footer .footer-icons li{
+  display: inline-block;
+}
+
+.footer .footer-contact h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer .footer-contact a {
+  color: #FF6B6B;
+  text-decoration: none;
+}
+
+.footer .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer .footer-bottom p {
+  margin-bottom: 10px;
+}
+
+.footer .footer-bottom p span {
+  color: black;
 }
