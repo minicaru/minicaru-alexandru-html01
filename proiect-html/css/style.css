@@ -535,6 +535,10 @@ body {
 
 .footer .footer-icons li a [class*=fa-] {
   color: #FF6B6B;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }
 
 
