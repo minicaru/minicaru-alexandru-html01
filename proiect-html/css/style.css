@@ -106,6 +106,35 @@ body {
   float: right;
 }
 
+.header-controls .fa-angle-down{
+  height: 44px;
+}
+
+.header-controls .user-controls, 
+.header-controls .cart {
+  float: left;
+}
+
+.header-controls .cart {
+  margin: 6px 0 0 15px;
+  position: relative;
+}
+
+.header-controls .cart .cart-count {
+  position: absolute;
+  left: 27px;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 5px;
+  border-radius: 15px;
+  top: -9px;
+}
+
+.header-controls .cart .fa-shopping-cart {
+  height: 32px;
+  width: 32px;
+}
+
 .header-bottom .logo-container {
   text-align: center;
 }
@@ -147,8 +176,9 @@ body {
 }
 
 .cart {
-  float: right;
+  float: left;
 }
+
 .cart .cart-count {
   color: white;
   background-color:#FF6B6B;
@@ -416,6 +446,8 @@ body {
   text-align: center;
 }
 
+
+
 .home-section h1 {
   font-size: 41px;
   margin-bottom: 30px;
@@ -425,6 +457,28 @@ body {
   color: black;
   text-transform: uppercase ;
 }
+
+.social-section ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-section ul li a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #5e5e5e;
+  border-radius: 60px;
+  color: #5e5e5e;
+}
+
+.social-section ul li a [class*="fa-"] {
+  width: 30px;
+  height: 30px;
+}
+
 
 .payment-section ul {
   width: 390px;
@@ -475,7 +529,14 @@ body {
 
 .footer .footer-icons li{
   display: inline-block;
+  text-align: center;
 }
+
+
+.footer .footer-icons li a [class*=fa-] {
+  color: #FF6B6B;
+}
+
 
 .footer .footer-contact h2 {
   font-size: 16px;
