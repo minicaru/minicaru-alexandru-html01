@@ -67,6 +67,11 @@ body {
     float: right;
 }
 
+.header-controls .cart {
+    margin: 6px 0 0 15px;
+    position: relative;
+}
+
 .header-bottom {
     text-align: center;
 }
@@ -343,7 +348,7 @@ body {
     color: white;
 }
 
-.footer .footer-customer-suport{
+.footer .footer-customer-support{
     clear: both;
 }
 
@@ -355,14 +360,22 @@ body {
 .footer .footer-icons li a {
     color: #FF6B6B;
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 10px;
+    margin: 50px 10px 0 10px;
+}
+
+.footer-contact {
+    padding-left: 310px;
 }
 
 .footer .footer-contact h2 {
     font-size: 16px;
     margin-bottom: 8px;
+    color: #AEAEAE;
+  }
+
+  .footer .footer-contact h2 span {
+      text-transform: uppercase;
+      font-weight: bolder;
   }
 
   .footer .footer-contact a {
@@ -373,6 +386,7 @@ body {
   .footer .footer-bottom {
     text-align: center;
     margin-top: 20px;
+    color: #626262;
   }
 
   .footer .footer-bottom p {
@@ -381,4 +395,5 @@ body {
 
   .footer .footer-bottom p span {
     color: black;
+    font-weight: bold;
   }
