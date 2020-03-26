@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'robotoregular';
+    font-size: 16px;
+    color:#707070;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-contact {
+    margin: 10px 10px 10px 10px;
+}
+
+.header-controls {
+    float: right;
+}
+
+.header-bottom {
+    text-align: center;
+}
+
+.header-bottom .logo {
+    display: inline-block;
+}
+
+.nav-main ul {
+    text-align: center;
+}
+
+.nav-main ul li {
+    display: inline-block;
+}
+
+.nav-main ul a {
+    color: #707070;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 2px;
+    padding: 15px;
+    border-radius: 25px;
+    transition: background-color 0.3s linear, color 0.2s linear;
+}
+
+.nav-main ul a:hover {
+    background-color: #FF6B6B;
+    color: white;
+  }
+
+.nav-main .second li a {
+    padding: 5px;
+} 
+
+.banner-main {
+    background-image: url(../imgs/slider-manusa.png);
+    min-height: 572px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 110px;
+}
+
+.banner-main .container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    min-height: inherit;
+    color: white;
+}
+
+.banner-main .banner-copy {
+    padding: 0 0 0 750px;
+}
+
+.banner-main .banner-copy h1 {
+    font-size: 75px;
+    font-family: 'robotolight';
+    margin-bottom: 20px;
+}
+
+.banner-main .banner-copy h2 {
+    font-size: 42px;
+    font-family: 'robotolight';
+}
+
+.banner-main .banner-copy .banner-cta {
+    text-align: center;
+    margin: 38px 0 0 0;
+}
+
+.banner-main .banner-copy .banner-cta a{
+    text-transform: uppercase;
+    border: 1px solid tomato;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 22px 35px;
+    color: tomato;
+}
+
+.banner-main .banner-small-print {
+    bottom: 25px;
+    left: 450px;
+    position: absolute;
+    font-size: 14px;
+    text-align: right;
+}
+
+.content .header-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content .header-content h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.content .header-content h1 span {
+    color: black;
+}
+
+.catalog-preview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+
+.catalog-preview .product-info {
+    text-align: center;
+}
+
+.product-list {
+    margin-bottom: 75px;
+}
+
+.catalog-preview .product-tile {
+    width: 350px;
+}
+
+.catalog-preview .product-pricing {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.catalog-preview .product-actions {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.catalog-preview .product-pricing .product-price span {
+    color: #FF6B6B;
+}
+
+.catalog-preview .product-tile .product-image {
+    position: relative;
+  }
+
+.catalog-preview .product-tile .product-image .product-discount{
+    position: absolute;
+    right:20px;
+    top: 20px;
+    border: 1px solid #FF6B6B;
+    border-radius: 35px;
+    color:white;
+    padding: 20px 20px;
+    background-color: #FF6B6B;
+}
+
+.catalog-preview .product-tile .button-a2c {
+    background-color: transparent;
+    color:#FF6B6B;
+    border-radius: 35px;
+    border: 1px solid #FF6B6B;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 31px;
+}
+
+.catalog-preview .product-tile .product-info {
+    font-size: 24px;
+}
+
+.catalog-preview .product-tile .product-info a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.catalog-preview .product-tile .product-info a span:nth-child(1) {
+    color: black;
+}
+
+.catalog-preview .product-tile .product-info a span:nth-child(2) {
+    color: #7e7e7e;
+}
+
+.catalog-preview .product-tile .product-info h2 {
+    font-size: 18px;
+}
+
+.catalog-preview .product-tile .product-price-regular {
+    text-decoration: line-through;
+}
+
+.newsletter-banner {
+    max-width: 4372px;
+    height: 236px;
+    min-height: 236px;
+    display: flex;
+    background-position: center center;
+    background-size: cover;
+    background-color: #707070;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.newsletter-banner .flex-fix {
+    margin-right: 230px;
+}
+
+.newsletter-banner .flex-fix p{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+}
+
+.newsletter-banner .flex-fix .subscribe1 {
+    text-align: center;
+}
+
+.newsletter-banner .flex-fix .subscribe1 span {
+    font-size: 55px;
+}
+
+.newsletter-banner .flex-fix .subscribe2 {
+    text-decoration: underline;
+}
+
+.newsletter-banner .flex-fix .image-posta {
+    padding-top: 10px;
+    position: relative;
+}
