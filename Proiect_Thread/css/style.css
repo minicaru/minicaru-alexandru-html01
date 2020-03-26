@@ -291,3 +291,94 @@ body {
     padding-top: 10px;
     position: relative;
 }
+
+.payment-section ul li{
+    display: inline-block;
+    margin: 0 5px 10px 5px;
+}
+
+.payment-section {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.payment-section h1{
+    font-size: 40px;
+    color: #292929;
+    margin-bottom: 41px;
+}
+
+.payment-section ul {
+    width: 390px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin: 56px 0 40px 0;
+}
+
+.footer .footer-top {
+    background-image: url(../imgs/banner-foot.png);
+    min-height: 320px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    padding: 47px 0px 0px 48px;
+    margin-bottom: 20px;
+}
+
+.footer .footer-top ul {
+    float: left;
+    margin: 0 60px 40px 0;
+}
+
+.footer .footer-top ul li{
+    margin-bottom: 5px;
+  }
+
+.footer .footer-top li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-customer-suport{
+    clear: both;
+}
+
+.footer .footer-icons li {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer .footer-icons li a {
+    color: #FF6B6B;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.footer .footer-contact h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .footer .footer-contact a {
+    color: #FF6B6B;
+    text-decoration: none;
+  }
+
+  .footer .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer .footer-bottom p {
+    margin-bottom: 10px;
+  }
+
+  .footer .footer-bottom p span {
+    color: black;
+  }
