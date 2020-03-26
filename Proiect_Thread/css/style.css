@@ -172,11 +172,11 @@ body {
 
 .banner-main .banner-copy .banner-cta a{
     text-transform: uppercase;
-    border: 1px solid tomato;
+    border: 1px solid #FF6B6B;
     border-radius: 35px;
     text-decoration: none;
     padding: 22px 35px;
-    color: tomato;
+    color: #FF6B6B;
 }
 
 .banner-main .banner-small-print {
@@ -333,11 +333,17 @@ body {
     margin-bottom: 50px;
 }
 
-.payment-section h1{
+.payment-section h1 {
     font-size: 40px;
     color: #292929;
     margin-bottom: 41px;
 }
+
+.payment-section span {
+    font-weight: bolder;
+}
+
+
 
 .payment-section ul {
     width: 390px;
