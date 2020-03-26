@@ -56,15 +56,18 @@ body {
 .container {
     width: 100%;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 10px auto 0;
+
 }
 
 .header-contact {
     margin: 10px 10px 10px 10px;
+    display: inline-block;
 }
 
 .header-controls {
     float: right;
+    display: inline-flex;
 }
 
 .header-controls .cart {
@@ -72,12 +75,29 @@ body {
     position: relative;
 }
 
+.header-controls span {
+    border: 1px solid #FF6B6B;
+    border-radius: 15px;
+    padding: 5px 9px 5px 9px;
+    background-color: #FF6B6B;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: -9px;
+    left: 18px;
+}
+
 .header-bottom {
+    text-align: center;
+}
+
+.header-bottom .logo-container {
     text-align: center;
 }
 
 .header-bottom .logo {
     display: inline-block;
+    padding-left: 36px;
 }
 
 .nav-main ul {
@@ -96,6 +116,11 @@ body {
     padding: 15px;
     border-radius: 25px;
     transition: background-color 0.3s linear, color 0.2s linear;
+    font-size: 18px;
+}
+
+.nav-main .second a {
+    font-size: 14px;
 }
 
 .nav-main ul a:hover {
