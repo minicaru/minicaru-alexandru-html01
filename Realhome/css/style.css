@@ -1,0 +1,428 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'nunito';
+    color: #707070;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.header-top {
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    color: white;
+    }
+
+.header-contact{ 
+    margin-left: 1280px;
+
+}
+
+.header-contact p {
+    display: inline-block;
+    padding: 0 33px 0 25px;
+}
+
+.nav-main {
+    border: 1px solid #E5E5E5;
+    background-color:#E5E5E5;
+    padding: 20px;
+}
+
+.nav-main ul li{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 15px;
+}
+
+.nav-main ul li:nth-child(1) {
+    text-transform: uppercase;
+    font-size: larger;
+    padding-right: 900px;
+    font-size: 25px;
+}
+
+.banner-main {
+    background-image: url(../imgs/first_banner.png);
+    min-height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+}
+
+.form-box {
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+}
+
+.banner-main .banner-form {
+    text-align: center;
+    padding:300px 400px 400px 400px;
+}
+
+.banner-main .banner-form h4{
+    display: inline-block;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+
+.banner-main .banner-form h4:nth-child(2){
+    background-color:#FFFFFF;
+    color: black;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: -730px;
+    border-radius: 3px;
+}
+
+.banner-main .banner-form h4:nth-child(3){
+    background-color: #E5E5E5;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 3px;
+}
+
+.banner-main .banner-form h4:nth-child(4){
+    background-color: #D5D5D5;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 3px;
+}
+
+
+.banner-main .banner-form p {
+    font-size: 32px;
+    padding-top: 180px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.search-field {
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 794px;
+}
+
+.search {
+    height: 60px;
+    width: 110px;
+    background-color: #46EADA ;
+    border: none;
+    border-radius: 10px;
+}
+
+.product-list {
+    margin-top: 81px;
+    margin-bottom: 45px;
+}
+
+.product-list .header-content h1{
+    font-size: 36px;
+    margin: 10px 0 0 50px;
+}
+
+.product-list .header-content ul{
+    float: right;
+    margin: -15px 10px 0 1200px;
+}
+
+
+.product-list .header-content ul li{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.product-list .header-content ul li:nth-child(3){
+    color: #46EADA;
+    padding-right: 118px;
+}
+
+
+.catalog-preview1 .product-category {
+    width: 500px;
+    margin:50px;
+}
+
+.catalog-preview1 {
+    display: flex;
+}
+
+hr{
+    width: 1733px;
+    margin-right: 120px;
+}
+
+.product-category .product-info {
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 12px;
+    color: #707070;
+}
+
+.product-category .product-pricing {
+    margin:-32px 420px 20px 10px;
+    color: #707070;
+    text-align: center;
+} 
+
+.product-category .product-pricing span{
+    color: black;
+    text-align: center;
+}
+
+.product-category .product-info h2{
+    color: black;
+    font-size: 20px;
+}
+
+
+.properties-images .properties-category{
+    display: inline-block;
+    margin: 10px 10px 10px 40px;
+} 
+
+.product-list .header-content {
+    margin-bottom: 45px;
+}
+
+.properties-images .properties-category .property-info{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.properties-images .properties-category .product-pricing{
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.properties-images .properties-category .property-info h2{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.properties-images .properties-category .product-pricing span{
+    color: black;
+    font-size: 20px;
+}
+
+.agents-list .agents-header {
+    margin: 50px 0;
+}
+
+.agents-list .agents-header h1{
+    font-size: 36px;
+    margin-left: 55px;
+}
+
+.agent-1 {
+    margin-bottom: 45px;
+}
+
+.agent-1 .agent-image{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.agent-1 .agent-image h1 {
+    color: black;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.agent-1 .agent-image h3 {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.agent-1 .agent-image p {
+    width: 250px;
+    text-align: center;
+    margin-left: 188px;
+}
+
+.agent-1 .agent-image .contact-button {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #46EADA;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.property-news {
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.property-news .news-header {
+    margin: 50px 0;
+}
+
+.property-news .news-header h1 {
+    font-size: 36px;
+    margin: 10px 0 0 50px;
+}
+
+.property-news .news-property {
+    display: inline-block;
+    width: 33%;
+}
+
+.property-news .news-property .news-image {
+    margin-left: 35px;
+}
+
+.property-review {
+    text-align: center;
+    margin: 105px 0;
+}
+
+.contact-form {
+    margin: 60px auto;
+    text-align: center;
+}
+
+/*.contact-form .input-field {
+    width: 200px;
+    margin: 0 40px;
+    float: left;
+}*/
+
+.contact-form {
+    height: 450px;
+    max-width: 1700px;
+    margin: 80px auto;
+}
+
+.contact-form h1 {
+    text-align: left;
+    margin: 20px 0 20px 80px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.contact-container .input-field {
+    width: 30%;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.btn {
+    width: 150px;
+    background-color: #46EADA;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 1390px;
+    margin-top: 10px;
+}
+
+.footer .container {
+    border: 1px solid #707070;
+    background-color: #707070;
+    color:white;
+    height: 400px;
+}
+
+.container .footer-details {
+    margin-top: 60px;
+    margin-right: 150px;
+    width: 600px;
+    margin-left: 180px;
+}
+
+.container .footer-details h1{
+    color: #46EADA;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.container .footer-newsletter {
+    text-align: right;
+    margin-right: 247px;
+    margin-top: -166px;
+}
+
+.container .footer-newsletter h1 {
+    font-size: 22px;
+    color: #46EADA;
+    margin-bottom: 40px;
+    margin-right: 126px;
+}
+
+.container .footer-newsletter .sub {
+    height: 30px;
+}
